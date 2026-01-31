@@ -1,0 +1,57 @@
+@theme {
+  /* ── Bold Typography fonts ── */
+  --font-heading: "Inter Tight", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", "Georgia", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+[data-theme="bold-typography"] {
+  /* ── Surface colors ── */
+  --color-surface-0: #0a0a0a;
+  --color-surface-1: #0f0f0f;
+  --color-surface-2: #1a1a1a;
+  --color-surface-3: #262626;
+
+  /* ── Text colors ── */
+  --color-text-primary: #fafafa;
+  --color-text-secondary: #737373;
+  --color-text-muted: #737373;
+  --color-text-inverse: #0a0a0a;
+
+  /* ── Accent / Brand — Vermillion ── */
+  --color-accent: #ff3d00;
+  --color-accent-hover: #ff5722;
+  --color-accent-muted: rgba(255, 61, 0, 0.15);
+
+  /* ── Semantic ── */
+  --color-success: #22c55e;
+  --color-warning: #eab308;
+  --color-error: #ef4444;
+
+  /* ── Border ── */
+  --color-border: #262626;
+  --color-border-hover: #404040;
+  --color-border-accent: #ff3d00;
+
+  /* ── Radii (zero — editorial sharp edges) ── */
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-full: 0px;
+
+  /* ── Shadows (none — flat poster aesthetic) ── */
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: none;
+  --shadow-glow: none;
+  --shadow-glow-lg: none;
+
+  /* ── Easings ── */
+  --ease-out-expo: cubic-bezier(0.25, 0, 0, 1);
+  --ease-out-back: cubic-bezier(0.25, 0, 0, 1);
+  --ease-spring: cubic-bezier(0.25, 0, 0, 1);
+
+  /* ── Font ── */
+  --font-sans: "Inter Tight", "Inter", ui-sans-serif, system-ui, sans-serif;
+}

@@ -1,0 +1,88 @@
+@keyframes underline-reveal {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+}
+
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes underline-expand {
+  0% {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  100% {
+    transform: scaleX(1.1);
+    transform-origin: left;
+  }
+}
+
+/* ── Animated underline ── */
+.bold-typo-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.bold-typo-underline::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-accent, #ff3d00);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s cubic-bezier(0.25, 0, 0, 1);
+}
+
+.bold-typo-underline:hover::after {
+  transform: scaleX(1);
+}
+
+/* Active variant — underline always visible, expands on hover */
+.bold-typo-underline--active::after {
+  transform: scaleX(1);
+}
+
+.bold-typo-underline--active:hover::after {
+  transform: scaleX(1.1);
+}
+
+/* ── Fade in ── */
+.bold-typo-fade-in {
+  animation: fade-in-up 0.5s cubic-bezier(0.25, 0, 0, 1) both;
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  .bold-typo-underline::after {
+    transition: none;
+  }
+
+  .bold-typo-fade-in {
+    animation: none;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

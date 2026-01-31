@@ -1,0 +1,1 @@
+export { EditorialHero } from "./EditorialHero";

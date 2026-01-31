@@ -11,6 +11,9 @@ importers:
       '@fontsource/inter':
         specifier: ^5.2.8
         version: 5.2.8
+      '@fontsource/inter-tight':
+        specifier: ^5.2.7
+        version: 5.2.7
       '@fontsource/jetbrains-mono':
         specifier: ^5.2.8
         version: 5.2.8
@@ -18,6 +21,9 @@ importers:
         specifier: ^5.2.8
         version: 5.2.8
       '@fontsource/marcellus':
+        specifier: ^5.2.8
+        version: 5.2.8
+      '@fontsource/playfair-display':
         specifier: ^5.2.8
         version: 5.2.8
       '@fontsource/space-grotesk':
@@ -333,6 +339,9 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@fontsource/inter-tight@5.2.7':
+    resolution: {integrity: sha512-44TmSfHdNQus/3MWOMIonUEnbxwQhiaFo2sfBJEGIE4c7TN+GO6kfLzsTH4Nu52BC9HDZFl9fPQ6Cwzp9vYTtQ==}
+
   '@fontsource/inter@5.2.8':
     resolution: {integrity: sha512-P6r5WnJoKiNVV+zvW2xM13gNdFhAEpQ9dQJHt3naLvfg+LkF2ldgSLiF4T41lf1SQCM9QmkqPTn4TH568IRagg==}
 
@@ -344,6 +353,9 @@ packages:
 
   '@fontsource/marcellus@5.2.8':
     resolution: {integrity: sha512-JHn6y1lz5IBjwqmwy4JSOIg2OV8X5UnbB4hGRUDaSlfViXghS6/4pX4CoRzFtQDIkH7axGCS+6kbdTVuYxBKDw==}
+
+  '@fontsource/playfair-display@5.2.8':
+    resolution: {integrity: sha512-fUEhib70SszNhQVsGbUMSsWJhr7Je0rdeuZdtGpDNu0GKF1xJM8QhpI/y0pckU25GcChXm9TLOmeZupkvvZo2g==}
 
   '@fontsource/space-grotesk@5.2.10':
     resolution: {integrity: sha512-XNXEbT74OIITPqw2H6HXwPDp85fy43uxfBwFR5PU+9sLnjuLj12KlhVM9nZVN6q6dlKjkuN8JisW/OBxwxgUew==}
@@ -1788,6 +1800,8 @@ snapshots:
   '@esbuild/win32-x64@0.25.12':
     optional: true
 
+  '@fontsource/inter-tight@5.2.7': {}
+
   '@fontsource/inter@5.2.8': {}
 
   '@fontsource/jetbrains-mono@5.2.8': {}
@@ -1795,6 +1809,8 @@ snapshots:
   '@fontsource/josefin-sans@5.2.8': {}
 
   '@fontsource/marcellus@5.2.8': {}
+
+  '@fontsource/playfair-display@5.2.8': {}
 
   '@fontsource/space-grotesk@5.2.10': {}
 

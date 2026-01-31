@@ -12,3 +12,6 @@
 @import "./themes/art-deco/styles/theme.css";
 @import "./themes/art-deco/styles/animations.css";
 @import "./themes/art-deco/styles/crosshatch.css";
+@import "./themes/bold-typography/styles/theme.css";
+@import "./themes/bold-typography/styles/animations.css";
+@import "./themes/bold-typography/styles/noise.css";
