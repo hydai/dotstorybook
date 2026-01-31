@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@import "./themes/linear-modern/styles/theme.css";
+@import "./themes/linear-modern/styles/animations.css";
+@import "./themes/linear-modern/styles/noise.css";
+@import "./themes/linear-modern/styles/grid.css";
