@@ -1,0 +1,70 @@
+@theme {
+  /* ── Terminal-only variables ── */
+  --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Code", "Fira Code",
+    monospace;
+  --glow-primary: 0 0 10px rgba(51, 255, 0, 0.4), 0 0 20px rgba(51, 255, 0, 0.2);
+  --glow-primary-lg: 0 0 20px rgba(51, 255, 0, 0.5),
+    0 0 40px rgba(51, 255, 0, 0.3), 0 0 80px rgba(51, 255, 0, 0.1);
+  --glow-secondary: 0 0 10px rgba(255, 176, 0, 0.4),
+    0 0 20px rgba(255, 176, 0, 0.2);
+  --glow-error: 0 0 10px rgba(255, 51, 51, 0.4),
+    0 0 20px rgba(255, 51, 51, 0.2);
+}
+
+[data-theme="terminal"] {
+  /* ── Surface colors ── */
+  --color-surface-0: #0a0a0a;
+  --color-surface-1: #0d0d0d;
+  --color-surface-2: #141414;
+  --color-surface-3: #1a1a1a;
+
+  /* ── Text colors ── */
+  --color-text-primary: #33ff00;
+  --color-text-secondary: #29cc00;
+  --color-text-muted: #1f521f;
+  --color-text-inverse: #0a0a0a;
+
+  /* ── Accent / Brand ── */
+  --color-accent: #33ff00;
+  --color-accent-hover: #66ff33;
+  --color-accent-muted: rgba(51, 255, 0, 0.15);
+
+  /* ── Semantic ── */
+  --color-success: #33ff00;
+  --color-warning: #ffb000;
+  --color-error: #ff3333;
+
+  /* ── Border ── */
+  --color-border: rgba(51, 255, 0, 0.2);
+  --color-border-hover: rgba(51, 255, 0, 0.4);
+  --color-border-accent: rgba(51, 255, 0, 0.6);
+
+  /* ── Gradient stops (terminal doesn't use gradients — repurposed for glow) ── */
+  --color-gradient-start: #33ff00;
+  --color-gradient-mid: #ffb000;
+  --color-gradient-end: #ff3333;
+
+  /* ── Radii ── */
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-full: 0px;
+
+  /* ── Shadows (replaced by glows) ── */
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: none;
+  --shadow-glow: 0 0 10px rgba(51, 255, 0, 0.4), 0 0 20px rgba(51, 255, 0, 0.2);
+  --shadow-glow-lg: 0 0 20px rgba(51, 255, 0, 0.5),
+    0 0 40px rgba(51, 255, 0, 0.3), 0 0 80px rgba(51, 255, 0, 0.1);
+
+  /* ── Easings (linear / mechanical) ── */
+  --ease-out-expo: linear;
+  --ease-out-back: cubic-bezier(0.25, 0, 0.25, 1);
+  --ease-spring: steps(8, end);
+
+  /* ── Font ── */
+  --font-sans: "JetBrains Mono", ui-monospace, "Cascadia Code", "Fira Code",
+    monospace;
+}

@@ -1,0 +1,61 @@
+@theme {
+  /* ── Kinetic-only variables ── */
+  --font-display: "Space Grotesk", "Inter", ui-sans-serif, system-ui,
+    sans-serif;
+}
+
+[data-theme="kinetic"] {
+  /* ── Surface colors ── */
+  --color-surface-0: #09090b;
+  --color-surface-1: #0c0c0e;
+  --color-surface-2: #18181b;
+  --color-surface-3: #27272a;
+
+  /* ── Text colors ── */
+  --color-text-primary: #fafafa;
+  --color-text-secondary: #a1a1aa;
+  --color-text-muted: #71717a;
+  --color-text-inverse: #09090b;
+
+  /* ── Accent / Brand ── */
+  --color-accent: #dfe104;
+  --color-accent-hover: #e8ea33;
+  --color-accent-muted: rgba(223, 225, 4, 0.15);
+
+  /* ── Semantic ── */
+  --color-success: #22c55e;
+  --color-warning: #eab308;
+  --color-error: #ef4444;
+
+  /* ── Border ── */
+  --color-border: #3f3f46;
+  --color-border-hover: #52525b;
+  --color-border-accent: #dfe104;
+
+  /* ── Gradient stops (repurposed for accent shifts) ── */
+  --color-gradient-start: #dfe104;
+  --color-gradient-mid: #e8ea33;
+  --color-gradient-end: #f5f566;
+
+  /* ── Radii (brutalist — sharp corners) ── */
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-full: 0px;
+
+  /* ── Shadows (flat — no depth effects) ── */
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: none;
+  --shadow-glow: none;
+  --shadow-glow-lg: none;
+
+  /* ── Easings ── */
+  --ease-out-expo: cubic-bezier(0.25, 0, 0.25, 1);
+  --ease-out-back: cubic-bezier(0.25, 0, 0.25, 1);
+  --ease-spring: cubic-bezier(0.25, 0, 0.25, 1);
+
+  /* ── Font ── */
+  --font-sans: "Space Grotesk", "Inter", ui-sans-serif, system-ui, sans-serif;
+}

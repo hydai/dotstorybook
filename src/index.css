@@ -3,3 +3,12 @@
 @import "./themes/linear-modern/styles/animations.css";
 @import "./themes/linear-modern/styles/noise.css";
 @import "./themes/linear-modern/styles/grid.css";
+@import "./themes/terminal/styles/theme.css";
+@import "./themes/terminal/styles/animations.css";
+@import "./themes/terminal/styles/scanlines.css";
+@import "./themes/kinetic/styles/theme.css";
+@import "./themes/kinetic/styles/animations.css";
+@import "./themes/kinetic/styles/noise.css";
+@import "./themes/art-deco/styles/theme.css";
+@import "./themes/art-deco/styles/animations.css";
+@import "./themes/art-deco/styles/crosshatch.css";

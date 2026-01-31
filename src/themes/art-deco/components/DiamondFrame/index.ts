@@ -1,0 +1,1 @@
+export { DiamondFrame } from "./DiamondFrame";

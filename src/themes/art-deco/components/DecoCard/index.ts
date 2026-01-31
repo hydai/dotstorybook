@@ -1,0 +1,1 @@
+export { DecoCard } from "./DecoCard";

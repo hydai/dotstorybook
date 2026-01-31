@@ -11,6 +11,18 @@ importers:
       '@fontsource/inter':
         specifier: ^5.2.8
         version: 5.2.8
+      '@fontsource/jetbrains-mono':
+        specifier: ^5.2.8
+        version: 5.2.8
+      '@fontsource/josefin-sans':
+        specifier: ^5.2.8
+        version: 5.2.8
+      '@fontsource/marcellus':
+        specifier: ^5.2.8
+        version: 5.2.8
+      '@fontsource/space-grotesk':
+        specifier: ^5.2.10
+        version: 5.2.10
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -323,6 +335,18 @@ packages:
 
   '@fontsource/inter@5.2.8':
     resolution: {integrity: sha512-P6r5WnJoKiNVV+zvW2xM13gNdFhAEpQ9dQJHt3naLvfg+LkF2ldgSLiF4T41lf1SQCM9QmkqPTn4TH568IRagg==}
+
+  '@fontsource/jetbrains-mono@5.2.8':
+    resolution: {integrity: sha512-6w8/SG4kqvIMu7xd7wt6x3idn1Qux3p9N62s6G3rfldOUYHpWcc2FKrqf+Vo44jRvqWj2oAtTHrZXEP23oSKwQ==}
+
+  '@fontsource/josefin-sans@5.2.8':
+    resolution: {integrity: sha512-bGY9VWF01JQc5pAOF3+tLlm75dpwJrRhd5CzY3/oyksvdZQbtwOHSDuu20VGxbBDx2/JQdllNvSJFgqI4QGGqg==}
+
+  '@fontsource/marcellus@5.2.8':
+    resolution: {integrity: sha512-JHn6y1lz5IBjwqmwy4JSOIg2OV8X5UnbB4hGRUDaSlfViXghS6/4pX4CoRzFtQDIkH7axGCS+6kbdTVuYxBKDw==}
+
+  '@fontsource/space-grotesk@5.2.10':
+    resolution: {integrity: sha512-XNXEbT74OIITPqw2H6HXwPDp85fy43uxfBwFR5PU+9sLnjuLj12KlhVM9nZVN6q6dlKjkuN8JisW/OBxwxgUew==}
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -1765,6 +1789,14 @@ snapshots:
     optional: true
 
   '@fontsource/inter@5.2.8': {}
+
+  '@fontsource/jetbrains-mono@5.2.8': {}
+
+  '@fontsource/josefin-sans@5.2.8': {}
+
+  '@fontsource/marcellus@5.2.8': {}
+
+  '@fontsource/space-grotesk@5.2.10': {}
 
   '@isaacs/cliui@8.0.2':
     dependencies:
