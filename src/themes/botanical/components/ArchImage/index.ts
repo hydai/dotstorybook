@@ -1,0 +1,1 @@
+export { ArchImage } from "./ArchImage";
