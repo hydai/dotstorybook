@@ -1,0 +1,73 @@
+@theme {
+  /* ── Simple Dark fonts ── */
+  --font-heading: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Code", "Fira Code",
+    monospace;
+
+  /* ── Amber glows ── */
+  --glow-amber: 0 0 10px rgba(245, 158, 11, 0.4),
+    0 0 20px rgba(245, 158, 11, 0.2);
+  --glow-amber-lg: 0 0 20px rgba(245, 158, 11, 0.5),
+    0 0 40px rgba(245, 158, 11, 0.3), 0 0 80px rgba(245, 158, 11, 0.1);
+}
+
+[data-theme="simple-dark"] {
+  /* ── Surface colors ── */
+  --color-surface-0: #0a0a0f;
+  --color-surface-1: #12121a;
+  --color-surface-2: #1a1a24;
+  --color-surface-3: #252530;
+
+  /* ── Text colors ── */
+  --color-text-primary: #fafafa;
+  --color-text-secondary: #a1a1aa;
+  --color-text-muted: #71717a;
+  --color-text-inverse: #0a0a0f;
+
+  /* ── Accent / Brand (Amber) ── */
+  --color-accent: #f59e0b;
+  --color-accent-hover: #fbbf24;
+  --color-accent-muted: rgba(245, 158, 11, 0.15);
+
+  /* ── Semantic ── */
+  --color-success: #22c55e;
+  --color-warning: #eab308;
+  --color-error: #ef4444;
+
+  /* ── Border ── */
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-border-hover: rgba(255, 255, 255, 0.15);
+  --color-border-accent: rgba(245, 158, 11, 0.5);
+
+  /* ── Gradient stops ── */
+  --color-gradient-start: #f59e0b;
+  --color-gradient-mid: #fbbf24;
+  --color-gradient-end: #f97316;
+
+  /* ── Radii ── */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* ── Shadows ── */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 10px rgba(245, 158, 11, 0.4),
+    0 0 20px rgba(245, 158, 11, 0.2);
+  --shadow-glow-lg: 0 0 20px rgba(245, 158, 11, 0.5),
+    0 0 40px rgba(245, 158, 11, 0.3), 0 0 80px rgba(245, 158, 11, 0.1);
+  --shadow-border-glow: 0 0 0 1px rgba(245, 158, 11, 0.3),
+    0 0 15px rgba(245, 158, 11, 0.15), 0 0 30px rgba(245, 158, 11, 0.05);
+
+  /* ── Easings ── */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  /* ── Font ── */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
