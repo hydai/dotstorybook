@@ -1,0 +1,1 @@
+export { ConfettiBackground } from "./ConfettiBackground";

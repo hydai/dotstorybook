@@ -1,0 +1,19 @@
+/* ── Dot Grid Overlay (24px spacing) ── */
+.pg-dot-grid-overlay {
+  background-image: radial-gradient(circle, #94a3b8 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* ── Dense Dot Grid (16px spacing) ── */
+.pg-dot-grid-overlay-dense {
+  background-image: radial-gradient(circle, #94a3b8 0.8px, transparent 0.8px);
+  background-size: 16px 16px;
+}
+
+/* ── Colorful Dot Grid (dual-layer violet + pink) ── */
+.pg-dot-grid-overlay-colorful {
+  background-image: radial-gradient(circle, #8b5cf6 1px, transparent 1px),
+    radial-gradient(circle, #f472b6 0.8px, transparent 0.8px);
+  background-size: 24px 24px, 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
