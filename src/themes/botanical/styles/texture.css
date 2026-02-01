@@ -1,0 +1,57 @@
+/* ── Paper noise overlay ── */
+.botanical-paper-overlay {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 256px 256px;
+  opacity: 0.015;
+}
+
+/* ── Arch top (for images) ── */
+.botanical-arch-top {
+  border-radius: 50% 50% 0 0 / 40% 40% 0 0;
+  overflow: hidden;
+}
+
+/* ── Divider ── */
+.botanical-divider {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  color: #8c9a84;
+  font-family: "Playfair Display", "Georgia", serif;
+  font-size: 16px;
+}
+
+.botanical-divider::before,
+.botanical-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #e6e2da,
+    transparent
+  );
+}
+
+/* ── Leaf sway animation ── */
+.botanical-leaf-sway {
+  display: inline-block;
+  animation: botanical-sway 4s ease-in-out infinite;
+}
+
+/* ── Card hover bloom shadow ── */
+.botanical-hover-bloom {
+  transition: box-shadow 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.botanical-hover-bloom:hover {
+  box-shadow: 0 8px 24px rgba(140, 154, 132, 0.12),
+    0 16px 48px rgba(45, 58, 49, 0.06);
+}

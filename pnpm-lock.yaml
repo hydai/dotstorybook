@@ -53,6 +53,9 @@ importers:
       '@fontsource/share-tech-mono':
         specifier: ^5.2.7
         version: 5.2.7
+      '@fontsource/source-sans-3':
+        specifier: ^5.2.9
+        version: 5.2.9
       '@fontsource/space-grotesk':
         specifier: ^5.2.10
         version: 5.2.10
@@ -410,6 +413,9 @@ packages:
 
   '@fontsource/share-tech-mono@5.2.7':
     resolution: {integrity: sha512-1JBJ6CU9u5av8aFEUOGOJkq60/IEVVOZDCmiU8X3i0skk0Pp69GngDwlBUHaTZa4G6pbF1UDrC+Fm7XSckW6TQ==}
+
+  '@fontsource/source-sans-3@5.2.9':
+    resolution: {integrity: sha512-u3ymIq4rfmCCyB9MEw/sFR5lPVJ1yTNXmIMbUz+9kVCFIHvNtfzXOEBuvkg3Tk0zhmioPeJ28ZK5smZ7TurezQ==}
 
   '@fontsource/space-grotesk@5.2.10':
     resolution: {integrity: sha512-XNXEbT74OIITPqw2H6HXwPDp85fy43uxfBwFR5PU+9sLnjuLj12KlhVM9nZVN6q6dlKjkuN8JisW/OBxwxgUew==}
@@ -1883,6 +1889,8 @@ snapshots:
   '@fontsource/plus-jakarta-sans@5.2.8': {}
 
   '@fontsource/share-tech-mono@5.2.7': {}
+
+  '@fontsource/source-sans-3@5.2.9': {}
 
   '@fontsource/space-grotesk@5.2.10': {}
 
