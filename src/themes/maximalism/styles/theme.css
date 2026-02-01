@@ -1,0 +1,106 @@
+@theme {
+  --font-heading: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Bangers", cursive;
+  --shadow-hard-sm: 4px 4px 0 #ff3af2;
+  --shadow-hard-md: 4px 4px 0 #ff3af2, 8px 8px 0 #00f5d4;
+  --shadow-hard-lg: 4px 4px 0 #ff3af2, 8px 8px 0 #00f5d4,
+    12px 12px 0 #ffe600;
+  --shadow-hard-xl: 4px 4px 0 #ff3af2, 8px 8px 0 #00f5d4,
+    12px 12px 0 #ffe600, 16px 16px 0 #ff6b35;
+  --glow-magenta: 0 0 10px rgba(255, 58, 242, 0.4),
+    0 0 20px rgba(255, 58, 242, 0.2);
+  --glow-cyan: 0 0 10px rgba(0, 245, 212, 0.4),
+    0 0 20px rgba(0, 245, 212, 0.2);
+  --glow-yellow: 0 0 10px rgba(255, 230, 0, 0.4),
+    0 0 20px rgba(255, 230, 0, 0.2);
+  --glow-orange: 0 0 10px rgba(255, 107, 53, 0.4),
+    0 0 20px rgba(255, 107, 53, 0.2);
+  --glow-purple: 0 0 10px rgba(123, 47, 255, 0.4),
+    0 0 20px rgba(123, 47, 255, 0.2);
+  --color-max-magenta: #ff3af2;
+  --color-max-cyan: #00f5d4;
+  --color-max-yellow: #ffe600;
+  --color-max-orange: #ff6b35;
+  --color-max-purple: #7b2fff;
+}
+
+[data-theme="maximalism"] {
+  /* ── Surface colors ── */
+  --color-surface-0: #0d0d1a;
+  --color-surface-1: #1a1030;
+  --color-surface-2: #2d1b4e;
+  --color-surface-3: #3d2866;
+
+  /* ── Text colors ── */
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #c8b8e8;
+  --color-text-muted: #7b6a9e;
+  --color-text-inverse: #0d0d1a;
+
+  /* ── Accent: Magenta ── */
+  --color-accent: #ff3af2;
+  --color-accent-hover: #ff6bf5;
+  --color-accent-muted: rgba(255, 58, 242, 0.15);
+
+  /* ── Cyan ── */
+  --color-cyan: #00f5d4;
+  --color-cyan-hover: #33f7de;
+  --color-cyan-muted: rgba(0, 245, 212, 0.15);
+
+  /* ── Yellow ── */
+  --color-yellow: #ffe600;
+  --color-yellow-hover: #ffeb33;
+  --color-yellow-muted: rgba(255, 230, 0, 0.15);
+
+  /* ── Orange ── */
+  --color-orange: #ff6b35;
+  --color-orange-hover: #ff8a5c;
+  --color-orange-muted: rgba(255, 107, 53, 0.15);
+
+  /* ── Purple ── */
+  --color-purple: #7b2fff;
+  --color-purple-hover: #9b5fff;
+  --color-purple-muted: rgba(123, 47, 255, 0.15);
+
+  /* ── Semantic ── */
+  --color-success: #00f5d4;
+  --color-warning: #ffe600;
+  --color-error: #ff3af2;
+
+  /* ── Border ── */
+  --color-border: rgba(255, 255, 255, 0.12);
+  --color-border-hover: rgba(255, 58, 242, 0.4);
+  --color-border-accent: rgba(255, 58, 242, 0.7);
+
+  /* ── Gradient stops ── */
+  --color-gradient-start: #ff3af2;
+  --color-gradient-mid: #7b2fff;
+  --color-gradient-end: #00f5d4;
+
+  /* ── Radii (chunky/rounded) ── */
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --radius-xl: 9999px;
+  --radius-full: 9999px;
+
+  /* ── Shadows ── */
+  --shadow-sm: 4px 4px 0 #ff3af2;
+  --shadow-md: 4px 4px 0 #ff3af2, 8px 8px 0 #00f5d4;
+  --shadow-lg: 4px 4px 0 #ff3af2, 8px 8px 0 #00f5d4, 12px 12px 0 #ffe600;
+  --shadow-xl: 4px 4px 0 #ff3af2, 8px 8px 0 #00f5d4, 12px 12px 0 #ffe600,
+    16px 16px 0 #ff6b35;
+  --shadow-glow: 0 0 10px rgba(255, 58, 242, 0.4),
+    0 0 20px rgba(255, 58, 242, 0.2);
+  --shadow-glow-lg: 0 0 20px rgba(255, 58, 242, 0.5),
+    0 0 40px rgba(123, 47, 255, 0.3), 0 0 80px rgba(255, 58, 242, 0.1);
+
+  /* ── Easings (bouncy) ── */
+  --ease-bouncy: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  --ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  /* ── Font ── */
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+}

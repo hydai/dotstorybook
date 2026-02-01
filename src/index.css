@@ -56,3 +56,6 @@
 @import "./themes/organic/styles/theme.css";
 @import "./themes/organic/styles/animations.css";
 @import "./themes/organic/styles/grain.css";
+@import "./themes/maximalism/styles/theme.css";
+@import "./themes/maximalism/styles/animations.css";
+@import "./themes/maximalism/styles/patterns.css";
