@@ -1,0 +1,55 @@
+/* ── Float — gentle vertical bob ── */
+@keyframes sd-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* ── Pulse glow — amber glow pulse for badge dots ── */
+@keyframes sd-pulse-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 4px rgba(245, 158, 11, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 12px rgba(245, 158, 11, 0.8),
+      0 0 24px rgba(245, 158, 11, 0.4);
+  }
+}
+
+/* ── Shimmer — background-position shimmer for loading ── */
+@keyframes sd-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* ── Fade in — opacity + translateY entrance ── */
+@keyframes sd-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  [data-theme="simple-dark"] *,
+  [data-theme="simple-dark"] *::before,
+  [data-theme="simple-dark"] *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

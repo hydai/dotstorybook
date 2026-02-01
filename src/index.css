@@ -19,3 +19,6 @@
 @import "./themes/cyberpunk/styles/animations.css";
 @import "./themes/cyberpunk/styles/scanlines.css";
 @import "./themes/cyberpunk/styles/circuit.css";
+@import "./themes/simple-dark/styles/theme.css";
+@import "./themes/simple-dark/styles/animations.css";
+@import "./themes/simple-dark/styles/noise.css";
