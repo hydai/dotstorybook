@@ -1,0 +1,73 @@
+/* ── Dot grid paper background ── */
+.hd-paper-dots {
+  background-image: radial-gradient(circle, #c4bfb7 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* ── Tape decoration (top of card) ── */
+.hd-tape::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-2deg);
+  width: 80px;
+  height: 24px;
+  background: rgba(200, 200, 200, 0.45);
+  border: 1px solid rgba(180, 180, 180, 0.3);
+  z-index: 10;
+}
+
+/* ── Thumbtack decoration (top-right corner) ── */
+.hd-tack::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  right: 16px;
+  width: 16px;
+  height: 16px;
+  background: #ff4d4d;
+  border: 2px solid #2d2d2d;
+  border-radius: 50%;
+  z-index: 10;
+  box-shadow: 1px 1px 0px 0px #2d2d2d;
+}
+
+/* ── Speech bubble tail (bottom-left triangle) ── */
+.hd-speech-tail {
+  position: relative;
+}
+
+.hd-speech-tail::before {
+  content: "";
+  position: absolute;
+  bottom: -16px;
+  left: 24px;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 16px solid #2d2d2d;
+}
+
+.hd-speech-tail::after {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: 27px;
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 13px solid #ffffff;
+}
+
+/* ── Jiggle on hover ── */
+.hd-jiggle-hover:hover {
+  animation: hd-jiggle 0.3s ease-in-out;
+}
+
+/* ── Infinite bounce ── */
+.hd-bounce {
+  animation: hd-bounce 2s ease-in-out infinite;
+}

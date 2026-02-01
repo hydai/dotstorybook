@@ -45,3 +45,6 @@
 @import "./themes/botanical/styles/texture.css";
 @import "./themes/corporate-trust/styles/theme.css";
 @import "./themes/corporate-trust/styles/animations.css";
+@import "./themes/hand-drawn/styles/theme.css";
+@import "./themes/hand-drawn/styles/animations.css";
+@import "./themes/hand-drawn/styles/paper-dots.css";

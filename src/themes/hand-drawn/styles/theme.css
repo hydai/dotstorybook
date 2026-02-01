@@ -1,0 +1,65 @@
+@theme {
+  /* ── Hand-Drawn-only variables ── */
+  --font-heading: "Kalam", "Comic Sans MS", cursive;
+  --font-body: "Patrick Hand", "Comic Sans MS", cursive;
+  --shadow-hard-sm: 2px 2px 0px 0px #2d2d2d;
+  --shadow-hard-md: 4px 4px 0px 0px #2d2d2d;
+  --shadow-hard-lg: 6px 6px 0px 0px #2d2d2d;
+}
+
+[data-theme="hand-drawn"] {
+  /* ── Surface colors ── */
+  --color-surface-0: #fdfbf7;
+  --color-surface-1: #ffffff;
+  --color-surface-2: #f5f0e8;
+  --color-surface-3: #e5e0d8;
+
+  /* ── Text colors ── */
+  --color-text-primary: #2d2d2d;
+  --color-text-secondary: #5a5a5a;
+  --color-text-muted: #999490;
+  --color-text-inverse: #fdfbf7;
+
+  /* ── Accent (red marker) ── */
+  --color-accent: #ff4d4d;
+  --color-accent-hover: #e03e3e;
+  --color-accent-muted: rgba(255, 77, 77, 0.15);
+
+  /* ── Secondary (blue pen) ── */
+  --color-secondary: #2d5da1;
+  --color-secondary-hover: #1e4a85;
+
+  /* ── Semantic ── */
+  --color-success: #4a9a5b;
+  --color-warning: #d4a528;
+  --color-error: #ff4d4d;
+
+  /* ── Post-it ── */
+  --color-postit: #fff9c4;
+
+  /* ── Border ── */
+  --color-border: #2d2d2d;
+  --color-border-light: #c4bfb7;
+  --color-border-dashed: #999490;
+
+  /* ── Radii (wobbly — applied via inline style) ── */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* ── Shadows (hard offset, NO blur) ── */
+  --shadow-sm: 2px 2px 0px 0px #2d2d2d;
+  --shadow-md: 4px 4px 0px 0px #2d2d2d;
+  --shadow-lg: 6px 6px 0px 0px #2d2d2d;
+  --shadow-glow: 3px 3px 0px 0px rgba(45, 45, 45, 0.1);
+
+  /* ── Easings (snappy, hand-drawn feel) ── */
+  --ease-out-expo: cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-out-back: cubic-bezier(0.34, 1.2, 0.64, 1);
+  --ease-spring: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* ── Font ── */
+  --font-sans: "Patrick Hand", "Comic Sans MS", cursive;
+}
