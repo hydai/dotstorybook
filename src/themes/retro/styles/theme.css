@@ -1,0 +1,70 @@
+@theme {
+  /* ── Retro / 90s fonts ── */
+  --font-heading: "Arial Black", Impact, sans-serif;
+  --font-body: "MS Sans Serif", Tahoma, Verdana, sans-serif;
+  --font-mono: "Courier New", monospace;
+
+  /* ── Retro shadow presets ── */
+  --shadow-retro-outset: inset -1px -1px 0 #404040, inset 1px 1px 0 #dfdfdf;
+  --shadow-retro-inset: inset 1px 1px 0 #404040, inset -1px -1px 0 #dfdfdf;
+  --shadow-retro-outset-deep: inset -2px -2px 0 #404040,
+    inset 2px 2px 0 #ffffff, inset -1px -1px 0 #808080,
+    inset 1px 1px 0 #dfdfdf;
+  --shadow-retro-inset-deep: inset 2px 2px 0 #404040,
+    inset -2px -2px 0 #ffffff, inset 1px 1px 0 #808080,
+    inset -1px -1px 0 #dfdfdf;
+}
+
+[data-theme="retro"] {
+  /* ── Surface colors ── */
+  --color-surface-0: #c0c0c0;
+  --color-surface-1: #d4d0c8;
+  --color-surface-2: #ffffcc;
+  --color-surface-3: #808080;
+
+  /* ── Text colors ── */
+  --color-text-primary: #000000;
+  --color-text-secondary: #404040;
+  --color-text-muted: #808080;
+  --color-text-inverse: #ffffff;
+
+  /* ── Accent (Blue links) ── */
+  --color-accent: #0000ff;
+  --color-accent-hover: #0000cc;
+  --color-accent-muted: rgba(0, 0, 255, 0.15);
+
+  /* ── Secondary (Red) ── */
+  --color-secondary: #ff0000;
+  --color-secondary-hover: #cc0000;
+  --color-secondary-muted: rgba(255, 0, 0, 0.15);
+
+  /* ── Semantic ── */
+  --color-success: #008000;
+  --color-warning: #ffff00;
+  --color-error: #ff0000;
+
+  /* ── Borders ── */
+  --color-border: #808080;
+  --color-border-hover: #000000;
+
+  /* ── Radii: ALL zero for the retro sharp-edge aesthetic ── */
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-full: 0px;
+
+  /* ── Shadows ── */
+  --shadow-sm: inset -1px -1px 0 #404040, inset 1px 1px 0 #dfdfdf;
+  --shadow-md: inset -2px -2px 0 #404040, inset 2px 2px 0 #ffffff,
+    inset -1px -1px 0 #808080, inset 1px 1px 0 #dfdfdf;
+  --shadow-lg: inset -2px -2px 0 #404040, inset 2px 2px 0 #ffffff,
+    inset -1px -1px 0 #808080, inset 1px 1px 0 #dfdfdf;
+
+  /* ── Easings: instant / linear for retro feel ── */
+  --ease-smooth: linear;
+  --ease-decorative: step-end;
+
+  /* ── Font ── */
+  --font-sans: "MS Sans Serif", Tahoma, Verdana, sans-serif;
+}

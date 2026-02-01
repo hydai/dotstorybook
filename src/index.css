@@ -59,3 +59,6 @@
 @import "./themes/maximalism/styles/theme.css";
 @import "./themes/maximalism/styles/animations.css";
 @import "./themes/maximalism/styles/patterns.css";
+@import "./themes/retro/styles/theme.css";
+@import "./themes/retro/styles/animations.css";
+@import "./themes/retro/styles/retro-tile.css";
