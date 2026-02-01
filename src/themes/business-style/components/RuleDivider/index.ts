@@ -1,0 +1,1 @@
+export { RuleDivider } from "./RuleDivider";

@@ -37,3 +37,6 @@
 @import "./themes/academia/styles/theme.css";
 @import "./themes/academia/styles/animations.css";
 @import "./themes/academia/styles/texture.css";
+@import "./themes/business-style/styles/theme.css";
+@import "./themes/business-style/styles/animations.css";
+@import "./themes/business-style/styles/paper-texture.css";
