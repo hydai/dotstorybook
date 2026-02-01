@@ -48,3 +48,6 @@
 @import "./themes/hand-drawn/styles/theme.css";
 @import "./themes/hand-drawn/styles/animations.css";
 @import "./themes/hand-drawn/styles/paper-dots.css";
+@import "./themes/industrial/styles/theme.css";
+@import "./themes/industrial/styles/animations.css";
+@import "./themes/industrial/styles/noise.css";
