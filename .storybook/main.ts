@@ -12,6 +12,9 @@ const config: StorybookConfig = {
     options: {},
   },
   viteFinal(config) {
+    if (process.env.STORYBOOK_BASE) {
+      config.base = process.env.STORYBOOK_BASE;
+    }
     config.plugins = config.plugins ?? [];
     config.plugins.push(tailwindcss());
     return config;
