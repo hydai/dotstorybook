@@ -1,0 +1,89 @@
+/* ── Float (gentle drift upward + tilt) ── */
+@keyframes clay-float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(2deg);
+  }
+}
+
+/* ── Float delayed (offset rhythm) ── */
+@keyframes clay-float-delayed {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(-2deg);
+  }
+}
+
+/* ── Float slow (large, lazy drift) ── */
+@keyframes clay-float-slow {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-30px) rotate(5deg);
+  }
+}
+
+/* ── Breathe (gentle scale pulse) ── */
+@keyframes clay-breathe {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+}
+
+/* ── Shadow pulse (intensity oscillation) ── */
+@keyframes clay-shadow-pulse {
+  0%,
+  100% {
+    box-shadow: 8px 8px 16px rgba(166, 152, 190, 0.3),
+      -6px -6px 14px rgba(255, 255, 255, 0.85),
+      inset 1px 1px 2px rgba(255, 255, 255, 0.5),
+      inset -1px -1px 2px rgba(166, 152, 190, 0.1);
+  }
+  50% {
+    box-shadow: 12px 12px 24px rgba(166, 152, 190, 0.45),
+      -8px -8px 20px rgba(255, 255, 255, 0.95),
+      inset 1px 1px 3px rgba(255, 255, 255, 0.6),
+      inset -1px -1px 3px rgba(166, 152, 190, 0.15);
+  }
+}
+
+/* ── Ping (badge dot) ── */
+@keyframes clay-ping {
+  75%,
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+/* ── Stagger delay utilities ── */
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* ── Accessibility: respect reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
