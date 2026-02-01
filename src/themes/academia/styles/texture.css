@@ -1,0 +1,158 @@
+/* ── Paper noise overlay ── */
+.academia-paper-overlay {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 256px 256px;
+  opacity: 1;
+}
+
+/* ── Vignette overlay ── */
+.academia-vignette {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 50%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+  animation: vignette-breathe 8s ease-in-out infinite;
+}
+
+/* ── Corner flourishes (top-left + bottom-right) ── */
+.academia-corner-flourish {
+  position: relative;
+}
+
+.academia-corner-flourish::before,
+.academia-corner-flourish::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-color: #c9a962;
+  pointer-events: none;
+}
+
+.academia-corner-flourish::before {
+  top: 0;
+  left: 0;
+  border-top: 2px solid;
+  border-left: 2px solid;
+}
+
+.academia-corner-flourish::after {
+  bottom: 0;
+  right: 0;
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+}
+
+/* ── Corner flourishes (all four corners) ── */
+.academia-corner-flourish-all {
+  position: relative;
+}
+
+.academia-corner-flourish-all::before,
+.academia-corner-flourish-all::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-color: #c9a962;
+  pointer-events: none;
+}
+
+.academia-corner-flourish-all::before {
+  top: 0;
+  right: 0;
+  border-top: 2px solid;
+  border-right: 2px solid;
+}
+
+.academia-corner-flourish-all::after {
+  bottom: 0;
+  left: 0;
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+}
+
+/* ── Ornate divider ── */
+.academia-ornate-divider {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  color: #c9a962;
+  font-family: "Cinzel", "Georgia", serif;
+  font-size: 14px;
+}
+
+.academia-ornate-divider::before,
+.academia-ornate-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #c9a962,
+    transparent
+  );
+}
+
+/* ── Arch top (for images) ── */
+.academia-arch-top {
+  border-radius: 40% 40% 0 0 / 20% 20% 0 0;
+  overflow: hidden;
+}
+
+/* ── Sepia filter with hover transition ── */
+.academia-sepia {
+  filter: sepia(100%) saturate(60%) brightness(80%);
+  transition: filter 700ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.academia-sepia:hover {
+  filter: sepia(0%) saturate(100%) brightness(100%);
+}
+
+/* ── Drop cap ── */
+.academia-drop-cap::first-letter {
+  font-family: "Cinzel", "Georgia", serif;
+  font-size: 4.5rem;
+  float: left;
+  line-height: 0.8;
+  padding-right: 12px;
+  padding-top: 4px;
+  color: #c9a962;
+}
+
+/* ── Wax seal ── */
+.academia-wax-seal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #a52d3f, #8b2635 50%, #6b1d28 100%);
+  box-shadow:
+    inset 0 2px 4px rgba(255, 255, 255, 0.15),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.3),
+    0 2px 8px rgba(0, 0, 0, 0.4);
+  font-family: "Cinzel", "Georgia", serif;
+  text-transform: uppercase;
+  color: #e8dfd4;
+  letter-spacing: 0.05em;
+}
+
+/* ── Engraved text effect ── */
+.academia-engraved {
+  text-shadow:
+    1px 1px 0 rgba(0, 0, 0, 0.6),
+    -1px -1px 0 rgba(232, 223, 212, 0.08);
+}
