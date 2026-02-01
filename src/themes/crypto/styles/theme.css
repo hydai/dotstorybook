@@ -1,0 +1,84 @@
+@theme {
+  /* ── Crypto-only variables ── */
+  --font-heading: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Code", "Fira Code",
+    monospace;
+  --glow-orange: 0 0 10px rgba(247, 147, 26, 0.4),
+    0 0 20px rgba(247, 147, 26, 0.2);
+  --glow-orange-lg: 0 0 20px rgba(247, 147, 26, 0.5),
+    0 0 40px rgba(247, 147, 26, 0.3), 0 0 80px rgba(247, 147, 26, 0.1);
+  --glow-gold: 0 0 10px rgba(255, 214, 0, 0.4),
+    0 0 20px rgba(255, 214, 0, 0.2);
+  --glow-gold-lg: 0 0 20px rgba(255, 214, 0, 0.5),
+    0 0 40px rgba(255, 214, 0, 0.3), 0 0 80px rgba(255, 214, 0, 0.1);
+  --color-bitcoin-orange: #f7931a;
+  --color-burnt-orange: #ea580c;
+  --color-digital-gold: #ffd600;
+}
+
+[data-theme="crypto"] {
+  /* ── Surface colors ── */
+  --color-surface-0: #030304;
+  --color-surface-1: #0f1115;
+  --color-surface-2: #1a1b23;
+  --color-surface-3: #252631;
+
+  /* ── Text colors ── */
+  --color-text-primary: #e8e8ed;
+  --color-text-secondary: #9ca3af;
+  --color-text-muted: #6b7280;
+  --color-text-inverse: #030304;
+
+  /* ── Accent / Brand ── */
+  --color-accent: #f7931a;
+  --color-accent-hover: #ffab40;
+  --color-accent-muted: rgba(247, 147, 26, 0.15);
+
+  /* ── Secondary & Tertiary ── */
+  --color-secondary: #ea580c;
+  --color-secondary-hover: #f97316;
+  --color-secondary-muted: rgba(234, 88, 12, 0.15);
+  --color-tertiary: #ffd600;
+  --color-tertiary-hover: #ffe033;
+  --color-tertiary-muted: rgba(255, 214, 0, 0.15);
+
+  /* ── Semantic ── */
+  --color-success: #22c55e;
+  --color-warning: #fbbf24;
+  --color-error: #ef4444;
+
+  /* ── Border ── */
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-border-hover: rgba(247, 147, 26, 0.3);
+  --color-border-accent: rgba(247, 147, 26, 0.6);
+
+  /* ── Gradient stops ── */
+  --color-gradient-start: #ea580c;
+  --color-gradient-mid: #f7931a;
+  --color-gradient-end: #ffd600;
+
+  /* ── Radii (rounded, modern SaaS feel) ── */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* ── Shadows ── */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 10px rgba(247, 147, 26, 0.4),
+    0 0 20px rgba(247, 147, 26, 0.2);
+  --shadow-glow-lg: 0 0 20px rgba(247, 147, 26, 0.5),
+    0 0 40px rgba(247, 147, 26, 0.3), 0 0 80px rgba(247, 147, 26, 0.1);
+
+  /* ── Easings (spring-inspired) ── */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  /* ── Font ── */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}

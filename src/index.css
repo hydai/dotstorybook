@@ -19,3 +19,6 @@
 @import "./themes/cyberpunk/styles/animations.css";
 @import "./themes/cyberpunk/styles/scanlines.css";
 @import "./themes/cyberpunk/styles/circuit.css";
+@import "./themes/crypto/styles/theme.css";
+@import "./themes/crypto/styles/animations.css";
+@import "./themes/crypto/styles/grid.css";
