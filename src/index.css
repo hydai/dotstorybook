@@ -45,3 +45,6 @@
 @import "./themes/botanical/styles/texture.css";
 @import "./themes/corporate-trust/styles/theme.css";
 @import "./themes/corporate-trust/styles/animations.css";
+@import "./themes/industrial/styles/theme.css";
+@import "./themes/industrial/styles/animations.css";
+@import "./themes/industrial/styles/noise.css";

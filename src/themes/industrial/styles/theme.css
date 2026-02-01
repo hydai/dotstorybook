@@ -1,0 +1,74 @@
+@theme {
+  /* -- Industrial fonts -- */
+  --font-heading: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Code", "Fira Code",
+    monospace;
+
+  /* -- Industrial shadow presets -- */
+  --shadow-industrial-card: 8px 8px 16px #babecc, -8px -8px 16px #ffffff;
+  --shadow-industrial-floating: 12px 12px 24px #babecc, -12px -12px 24px
+      #ffffff, inset 1px 1px 0 rgba(255, 255, 255, 0.5);
+  --shadow-industrial-pressed: inset 6px 6px 12px #babecc, inset -6px -6px 12px
+      #ffffff;
+  --shadow-industrial-recessed: inset 4px 4px 8px #babecc, inset -4px -4px 8px
+      #ffffff;
+  --shadow-industrial-button: 6px 6px 12px #babecc, -6px -6px 12px #ffffff;
+}
+
+[data-theme="industrial"] {
+  /* Surface colors */
+  --color-surface-0: #e0e5ec;
+  --color-surface-1: #f0f2f5;
+  --color-surface-2: #d1d9e6;
+  --color-surface-3: #c8cfd8;
+
+  /* Text colors */
+  --color-text-primary: #2d3436;
+  --color-text-secondary: #4a5568;
+  --color-text-muted: #636e72;
+  --color-text-inverse: #f0f2f5;
+
+  /* Accent / Safety Red */
+  --color-accent: #ff4757;
+  --color-accent-hover: #ff6b81;
+  --color-accent-muted: rgba(255, 71, 87, 0.15);
+
+  /* LED colors */
+  --color-led-red: #ff4757;
+  --color-led-green: #2ed573;
+  --color-led-amber: #ffa502;
+  --color-led-blue: #70a1ff;
+
+  /* Semantic */
+  --color-success: #2ed573;
+  --color-warning: #ffa502;
+  --color-error: #ff4757;
+  --color-info: #70a1ff;
+
+  /* Borders */
+  --color-border: #babecc;
+  --color-border-hover: #a3b1c6;
+
+  /* Radii (tight, precise) */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 4px 4px 8px #babecc, -4px -4px 8px #ffffff;
+  --shadow-md: 8px 8px 16px #babecc, -8px -8px 16px #ffffff;
+  --shadow-lg: 12px 12px 24px #babecc, -12px -12px 24px #ffffff;
+  --shadow-xl: 16px 16px 32px #babecc, -16px -16px 32px #ffffff;
+  --shadow-glow: 0 0 20px rgba(255, 71, 87, 0.25),
+    0 0 40px rgba(255, 71, 87, 0.1);
+
+  /* Easings */
+  --ease-mechanical: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --ease-smooth: cubic-bezier(0.25, 0.1, 0.25, 1);
+
+  /* Font */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}

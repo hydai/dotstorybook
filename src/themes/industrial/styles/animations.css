@@ -1,0 +1,48 @@
+@keyframes industrial-led-pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.15);
+  }
+}
+
+@keyframes industrial-scanline {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes industrial-shadow-pulse {
+  0%,
+  100% {
+    box-shadow: 8px 8px 16px #babecc, -8px -8px 16px #ffffff;
+  }
+  50% {
+    box-shadow: 12px 12px 24px #babecc, -12px -12px 24px #ffffff;
+  }
+}
+
+@keyframes industrial-ping {
+  75%,
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
