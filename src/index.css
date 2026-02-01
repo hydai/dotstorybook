@@ -53,3 +53,6 @@
 @import "./themes/industrial/styles/noise.css";
 @import "./themes/neumorphism/styles/theme.css";
 @import "./themes/neumorphism/styles/animations.css";
+@import "./themes/retro/styles/theme.css";
+@import "./themes/retro/styles/animations.css";
+@import "./themes/retro/styles/retro-tile.css";
