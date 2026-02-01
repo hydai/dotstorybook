@@ -1,0 +1,1 @@
+export { WaxSeal } from "./WaxSeal";

@@ -29,3 +29,6 @@
 @import "./themes/simple-dark/styles/theme.css";
 @import "./themes/simple-dark/styles/animations.css";
 @import "./themes/simple-dark/styles/noise.css";
+@import "./themes/academia/styles/theme.css";
+@import "./themes/academia/styles/animations.css";
+@import "./themes/academia/styles/texture.css";

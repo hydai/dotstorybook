@@ -1,0 +1,1 @@
+export { ParchmentBackground } from "./ParchmentBackground";
