@@ -1,0 +1,116 @@
+/* ── Dot grid pattern ── */
+.max-pattern-dots {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 58, 242, 0.06) 1px,
+    transparent 1px
+  );
+  background-size: 24px 24px;
+}
+
+/* ── Diagonal stripes ── */
+.max-pattern-stripes {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(0, 245, 212, 0.04) 0px,
+    rgba(0, 245, 212, 0.04) 1px,
+    transparent 1px,
+    transparent 20px
+  );
+}
+
+/* ── Checkerboard ── */
+.max-pattern-checkerboard {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image: linear-gradient(
+      45deg,
+      rgba(123, 47, 255, 0.05) 25%,
+      transparent 25%
+    ),
+    linear-gradient(-45deg, rgba(123, 47, 255, 0.05) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, rgba(123, 47, 255, 0.05) 75%),
+    linear-gradient(-45deg, transparent 75%, rgba(123, 47, 255, 0.05) 75%);
+  background-size: 40px 40px;
+  background-position: 0 0, 0 20px, 20px -20px, -20px 0;
+}
+
+/* ── Mesh (overlapping radial gradients) ── */
+.max-pattern-mesh {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image: radial-gradient(
+      ellipse at 20% 50%,
+      rgba(255, 58, 242, 0.08) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse at 80% 20%,
+      rgba(0, 245, 212, 0.06) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse at 50% 80%,
+      rgba(123, 47, 255, 0.07) 0%,
+      transparent 50%
+    );
+}
+
+/* ── Dots + stripes combined ── */
+.max-pattern-global {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image: radial-gradient(
+      circle,
+      rgba(255, 58, 242, 0.06) 1px,
+      transparent 1px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      rgba(0, 245, 212, 0.04) 0px,
+      rgba(0, 245, 212, 0.04) 1px,
+      transparent 1px,
+      transparent 20px
+    );
+  background-size: 24px 24px, auto;
+}
+
+/* ── Full pattern stack (dots + stripes + mesh) ── */
+.max-pattern-full {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image: radial-gradient(
+      circle,
+      rgba(255, 58, 242, 0.06) 1px,
+      transparent 1px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      rgba(0, 245, 212, 0.04) 0px,
+      rgba(0, 245, 212, 0.04) 1px,
+      transparent 1px,
+      transparent 20px
+    ),
+    radial-gradient(
+      ellipse at 30% 70%,
+      rgba(123, 47, 255, 0.06) 0%,
+      transparent 50%
+    );
+  background-size: 24px 24px, auto, auto;
+}
