@@ -1,0 +1,43 @@
+/* ── Float (gentle vertical drift) ── */
+@keyframes neu-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* ── Shadow pulse (intensity oscillation) ── */
+@keyframes neu-shadow-pulse {
+  0%,
+  100% {
+    box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+      -9px -9px 16px rgba(255, 255, 255, 0.5);
+  }
+  50% {
+    box-shadow: 12px 12px 20px rgba(163, 177, 198, 0.7),
+      -12px -12px 20px rgba(255, 255, 255, 0.6);
+  }
+}
+
+/* ── Ping (badge live indicator) ── */
+@keyframes neu-ping {
+  75%,
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+/* ── Accessibility: respect reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
