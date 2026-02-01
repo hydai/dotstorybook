@@ -1,0 +1,89 @@
+@theme {
+  /* ── Cyberpunk-only variables ── */
+  --font-heading: "Orbitron", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Code", "Fira Code",
+    monospace;
+  --font-label: "Share Tech Mono", ui-monospace, monospace;
+  --glow-green: 0 0 10px rgba(0, 255, 136, 0.4),
+    0 0 20px rgba(0, 255, 136, 0.2);
+  --glow-green-lg: 0 0 20px rgba(0, 255, 136, 0.5),
+    0 0 40px rgba(0, 255, 136, 0.3), 0 0 80px rgba(0, 255, 136, 0.1);
+  --glow-magenta: 0 0 10px rgba(255, 0, 255, 0.4),
+    0 0 20px rgba(255, 0, 255, 0.2);
+  --glow-magenta-lg: 0 0 20px rgba(255, 0, 255, 0.5),
+    0 0 40px rgba(255, 0, 255, 0.3), 0 0 80px rgba(255, 0, 255, 0.1);
+  --glow-cyan: 0 0 10px rgba(0, 212, 255, 0.4),
+    0 0 20px rgba(0, 212, 255, 0.2);
+  --glow-cyan-lg: 0 0 20px rgba(0, 212, 255, 0.5),
+    0 0 40px rgba(0, 212, 255, 0.3), 0 0 80px rgba(0, 212, 255, 0.1);
+  --color-neon-green: #00ff88;
+  --color-neon-magenta: #ff00ff;
+  --color-neon-cyan: #00d4ff;
+}
+
+[data-theme="cyberpunk"] {
+  /* ── Surface colors ── */
+  --color-surface-0: #0a0a0f;
+  --color-surface-1: #12121f;
+  --color-surface-2: #1a1a2e;
+  --color-surface-3: #252540;
+
+  /* ── Text colors ── */
+  --color-text-primary: #e0e0e0;
+  --color-text-secondary: #a0a0b0;
+  --color-text-muted: #6b7280;
+  --color-text-inverse: #0a0a0f;
+
+  /* ── Accent / Brand ── */
+  --color-accent: #00ff88;
+  --color-accent-hover: #33ffaa;
+  --color-accent-muted: rgba(0, 255, 136, 0.15);
+
+  /* ── Secondary & Tertiary ── */
+  --color-secondary: #ff00ff;
+  --color-secondary-hover: #ff55ff;
+  --color-secondary-muted: rgba(255, 0, 255, 0.15);
+  --color-tertiary: #00d4ff;
+  --color-tertiary-hover: #55e0ff;
+  --color-tertiary-muted: rgba(0, 212, 255, 0.15);
+
+  /* ── Semantic ── */
+  --color-success: #00ff88;
+  --color-warning: #ffb000;
+  --color-error: #ff3366;
+
+  /* ── Border ── */
+  --color-border: #2a2a3a;
+  --color-border-hover: rgba(0, 255, 136, 0.3);
+  --color-border-accent: rgba(0, 255, 136, 0.6);
+
+  /* ── Gradient stops ── */
+  --color-gradient-start: #00ff88;
+  --color-gradient-mid: #ff00ff;
+  --color-gradient-end: #00d4ff;
+
+  /* ── Radii (chamfered — all 0, clip-path handles corners) ── */
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-full: 0px;
+
+  /* ── Shadows (neon glows) ── */
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: none;
+  --shadow-glow: 0 0 10px rgba(0, 255, 136, 0.4),
+    0 0 20px rgba(0, 255, 136, 0.2);
+  --shadow-glow-lg: 0 0 20px rgba(0, 255, 136, 0.5),
+    0 0 40px rgba(0, 255, 136, 0.3), 0 0 80px rgba(0, 255, 136, 0.1);
+
+  /* ── Easings ── */
+  --ease-out-expo: linear;
+  --ease-out-back: cubic-bezier(0.25, 0, 0.25, 1);
+  --ease-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  /* ── Font ── */
+  --font-sans: "JetBrains Mono", ui-monospace, "Cascadia Code", "Fira Code",
+    monospace;
+}

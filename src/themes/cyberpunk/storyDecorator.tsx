@@ -1,11 +1,11 @@
 import type { Decorator } from "@storybook/react";
 
-export const terminalDecorator: Decorator = (Story) => (
+export const cyberpunkDecorator: Decorator = (Story) => (
   <div
-    data-theme="terminal"
+    data-theme="cyberpunk"
     style={{
-      background: "#0a0a0a",
-      color: "#33ff00",
+      background: "#0a0a0f",
+      color: "#e0e0e0",
       minHeight: "100vh",
       display: "flex",
       alignItems: "center",

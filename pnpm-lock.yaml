@@ -23,9 +23,15 @@ importers:
       '@fontsource/marcellus':
         specifier: ^5.2.8
         version: 5.2.8
+      '@fontsource/orbitron':
+        specifier: ^5.2.8
+        version: 5.2.8
       '@fontsource/playfair-display':
         specifier: ^5.2.8
         version: 5.2.8
+      '@fontsource/share-tech-mono':
+        specifier: ^5.2.7
+        version: 5.2.7
       '@fontsource/space-grotesk':
         specifier: ^5.2.10
         version: 5.2.10
@@ -354,8 +360,14 @@ packages:
   '@fontsource/marcellus@5.2.8':
     resolution: {integrity: sha512-JHn6y1lz5IBjwqmwy4JSOIg2OV8X5UnbB4hGRUDaSlfViXghS6/4pX4CoRzFtQDIkH7axGCS+6kbdTVuYxBKDw==}
 
+  '@fontsource/orbitron@5.2.8':
+    resolution: {integrity: sha512-ruzrDl5vnqNykk5DZWY0Ezj4aeFZSbCnwJTc/98ojNJHSsHhlhT2r7rwQrA5sptmF8JtB8TQTAvlfRvcV28RPw==}
+
   '@fontsource/playfair-display@5.2.8':
     resolution: {integrity: sha512-fUEhib70SszNhQVsGbUMSsWJhr7Je0rdeuZdtGpDNu0GKF1xJM8QhpI/y0pckU25GcChXm9TLOmeZupkvvZo2g==}
+
+  '@fontsource/share-tech-mono@5.2.7':
+    resolution: {integrity: sha512-1JBJ6CU9u5av8aFEUOGOJkq60/IEVVOZDCmiU8X3i0skk0Pp69GngDwlBUHaTZa4G6pbF1UDrC+Fm7XSckW6TQ==}
 
   '@fontsource/space-grotesk@5.2.10':
     resolution: {integrity: sha512-XNXEbT74OIITPqw2H6HXwPDp85fy43uxfBwFR5PU+9sLnjuLj12KlhVM9nZVN6q6dlKjkuN8JisW/OBxwxgUew==}
@@ -1810,7 +1822,11 @@ snapshots:
 
   '@fontsource/marcellus@5.2.8': {}
 
+  '@fontsource/orbitron@5.2.8': {}
+
   '@fontsource/playfair-display@5.2.8': {}
+
+  '@fontsource/share-tech-mono@5.2.7': {}
 
   '@fontsource/space-grotesk@5.2.10': {}
 

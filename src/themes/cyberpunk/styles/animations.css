@@ -1,0 +1,239 @@
+/* ── Cursor blink ── */
+@keyframes cyber-blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* ── Glitch clip-path animations ── */
+@keyframes cyber-glitch-1 {
+  0% {
+    clip-path: inset(40% 0 61% 0);
+    transform: translate(-2px, 2px);
+  }
+  20% {
+    clip-path: inset(92% 0 1% 0);
+    transform: translate(1px, -1px);
+  }
+  40% {
+    clip-path: inset(43% 0 1% 0);
+    transform: translate(-1px, 3px);
+  }
+  60% {
+    clip-path: inset(25% 0 58% 0);
+    transform: translate(3px, 1px);
+  }
+  80% {
+    clip-path: inset(54% 0 7% 0);
+    transform: translate(-3px, -2px);
+  }
+  100% {
+    clip-path: inset(58% 0 43% 0);
+    transform: translate(2px, -3px);
+  }
+}
+
+@keyframes cyber-glitch-2 {
+  0% {
+    clip-path: inset(65% 0 13% 0);
+    transform: translate(3px, -1px);
+  }
+  20% {
+    clip-path: inset(15% 0 62% 0);
+    transform: translate(-2px, 3px);
+  }
+  40% {
+    clip-path: inset(79% 0 3% 0);
+    transform: translate(1px, -2px);
+  }
+  60% {
+    clip-path: inset(2% 0 72% 0);
+    transform: translate(-3px, 1px);
+  }
+  80% {
+    clip-path: inset(32% 0 28% 0);
+    transform: translate(2px, 2px);
+  }
+  100% {
+    clip-path: inset(18% 0 69% 0);
+    transform: translate(-1px, -3px);
+  }
+}
+
+/* ── Chromatic aberration shift ── */
+@keyframes chromatic-shift {
+  0% {
+    text-shadow: -2px 0 #ff00ff, 2px 0 #00d4ff;
+  }
+  25% {
+    text-shadow: 2px -1px #ff00ff, -2px 1px #00d4ff;
+  }
+  50% {
+    text-shadow: -1px 2px #ff00ff, 1px -2px #00d4ff;
+  }
+  75% {
+    text-shadow: 1px 1px #ff00ff, -1px -1px #00d4ff;
+  }
+  100% {
+    text-shadow: -2px 0 #ff00ff, 2px 0 #00d4ff;
+  }
+}
+
+/* ── Neon pulse ── */
+@keyframes neon-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 10px rgba(0, 255, 136, 0.4),
+      0 0 20px rgba(0, 255, 136, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.6),
+      0 0 40px rgba(0, 255, 136, 0.3), 0 0 80px rgba(0, 255, 136, 0.1);
+  }
+}
+
+@keyframes neon-pulse-magenta {
+  0%,
+  100% {
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.4),
+      0 0 20px rgba(255, 0, 255, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.6),
+      0 0 40px rgba(255, 0, 255, 0.3), 0 0 80px rgba(255, 0, 255, 0.1);
+  }
+}
+
+@keyframes neon-pulse-cyan {
+  0%,
+  100% {
+    box-shadow: 0 0 10px rgba(0, 212, 255, 0.4),
+      0 0 20px rgba(0, 212, 255, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.6),
+      0 0 40px rgba(0, 212, 255, 0.3), 0 0 80px rgba(0, 212, 255, 0.1);
+  }
+}
+
+/* ── CRT flicker ── */
+@keyframes flicker-cyber {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  3% {
+    opacity: 0.4;
+  }
+  6% {
+    opacity: 1;
+  }
+  7% {
+    opacity: 0.6;
+  }
+  9% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  52% {
+    opacity: 0.8;
+  }
+  53% {
+    opacity: 1;
+  }
+}
+
+/* ── Scanline scroll ── */
+@keyframes scanline-scroll-cyber {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(4px);
+  }
+}
+
+/* ── Chromatic aberration utility ── */
+.cyber-chromatic {
+  position: relative;
+}
+
+.cyber-chromatic::before,
+.cyber-chromatic::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.cyber-chromatic::before {
+  color: #ff00ff;
+  animation: cyber-glitch-1 2s infinite linear alternate-reverse;
+  z-index: -1;
+}
+
+.cyber-chromatic::after {
+  color: #00d4ff;
+  animation: cyber-glitch-2 3s infinite linear alternate-reverse;
+  z-index: -1;
+}
+
+/* ── Chamfered corners (clip-path polygons) ── */
+.cyber-chamfer-sm {
+  clip-path: polygon(
+    8px 0,
+    calc(100% - 8px) 0,
+    100% 8px,
+    100% calc(100% - 8px),
+    calc(100% - 8px) 100%,
+    8px 100%,
+    0 calc(100% - 8px),
+    0 8px
+  );
+}
+
+.cyber-chamfer-md {
+  clip-path: polygon(
+    12px 0,
+    calc(100% - 12px) 0,
+    100% 12px,
+    100% calc(100% - 12px),
+    calc(100% - 12px) 100%,
+    12px 100%,
+    0 calc(100% - 12px),
+    0 12px
+  );
+}
+
+.cyber-chamfer-lg {
+  clip-path: polygon(
+    16px 0,
+    calc(100% - 16px) 0,
+    100% 16px,
+    100% calc(100% - 16px),
+    calc(100% - 16px) 100%,
+    16px 100%,
+    0 calc(100% - 16px),
+    0 16px
+  );
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

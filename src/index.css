@@ -15,3 +15,7 @@
 @import "./themes/bold-typography/styles/theme.css";
 @import "./themes/bold-typography/styles/animations.css";
 @import "./themes/bold-typography/styles/noise.css";
+@import "./themes/cyberpunk/styles/theme.css";
+@import "./themes/cyberpunk/styles/animations.css";
+@import "./themes/cyberpunk/styles/scanlines.css";
+@import "./themes/cyberpunk/styles/circuit.css";
