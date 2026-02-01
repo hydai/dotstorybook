@@ -1,0 +1,46 @@
+@keyframes corporate-float {
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+  33% {
+    transform: translateY(-12px) translateX(6px);
+  }
+  66% {
+    transform: translateY(6px) translateX(-8px);
+  }
+}
+
+@keyframes corporate-glow-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(79, 70, 229, 0.15),
+      0 0 40px rgba(79, 70, 229, 0.05);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(79, 70, 229, 0.25),
+      0 0 60px rgba(79, 70, 229, 0.1);
+  }
+}
+
+@keyframes corporate-ping {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  75%,
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
