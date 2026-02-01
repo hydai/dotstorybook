@@ -14,11 +14,13 @@
   "license": "ISC",
   "packageManager": "pnpm@10.28.1",
   "dependencies": {
+    "@fontsource/dm-sans": "^5.2.8",
     "@fontsource/inter": "^5.2.8",
     "@fontsource/inter-tight": "^5.2.7",
     "@fontsource/jetbrains-mono": "^5.2.8",
     "@fontsource/josefin-sans": "^5.2.8",
     "@fontsource/marcellus": "^5.2.8",
+    "@fontsource/nunito": "^5.2.7",
     "@fontsource/orbitron": "^5.2.8",
     "@fontsource/outfit": "^5.2.8",
     "@fontsource/playfair-display": "^5.2.8",

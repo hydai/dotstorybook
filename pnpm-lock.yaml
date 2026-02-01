@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@fontsource/dm-sans':
+        specifier: ^5.2.8
+        version: 5.2.8
       '@fontsource/inter':
         specifier: ^5.2.8
         version: 5.2.8
@@ -23,6 +26,9 @@ importers:
       '@fontsource/marcellus':
         specifier: ^5.2.8
         version: 5.2.8
+      '@fontsource/nunito':
+        specifier: ^5.2.7
+        version: 5.2.7
       '@fontsource/orbitron':
         specifier: ^5.2.8
         version: 5.2.8
@@ -351,6 +357,9 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@fontsource/dm-sans@5.2.8':
+    resolution: {integrity: sha512-tlovG42m9ESG28WiHpLq3F5umAlm64rv0RkqTbYowRn70e9OlRr5a3yTJhrhrY+k5lftR/OFJjPzOLQzk8EfCA==}
+
   '@fontsource/inter-tight@5.2.7':
     resolution: {integrity: sha512-44TmSfHdNQus/3MWOMIonUEnbxwQhiaFo2sfBJEGIE4c7TN+GO6kfLzsTH4Nu52BC9HDZFl9fPQ6Cwzp9vYTtQ==}
 
@@ -365,6 +374,9 @@ packages:
 
   '@fontsource/marcellus@5.2.8':
     resolution: {integrity: sha512-JHn6y1lz5IBjwqmwy4JSOIg2OV8X5UnbB4hGRUDaSlfViXghS6/4pX4CoRzFtQDIkH7axGCS+6kbdTVuYxBKDw==}
+
+  '@fontsource/nunito@5.2.7':
+    resolution: {integrity: sha512-pmtBq0H9ex9nk+RtJYEJOD9pag393iHETnl/PVKleF4i06cd0ttngK5ZCTgYb5eOqR3Xdlrjtev8m7bmgYprew==}
 
   '@fontsource/orbitron@5.2.8':
     resolution: {integrity: sha512-ruzrDl5vnqNykk5DZWY0Ezj4aeFZSbCnwJTc/98ojNJHSsHhlhT2r7rwQrA5sptmF8JtB8TQTAvlfRvcV28RPw==}
@@ -1824,6 +1836,8 @@ snapshots:
   '@esbuild/win32-x64@0.25.12':
     optional: true
 
+  '@fontsource/dm-sans@5.2.8': {}
+
   '@fontsource/inter-tight@5.2.7': {}
 
   '@fontsource/inter@5.2.8': {}
@@ -1833,6 +1847,8 @@ snapshots:
   '@fontsource/josefin-sans@5.2.8': {}
 
   '@fontsource/marcellus@5.2.8': {}
+
+  '@fontsource/nunito@5.2.7': {}
 
   '@fontsource/orbitron@5.2.8': {}
 
