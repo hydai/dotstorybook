@@ -1,0 +1,39 @@
+.crypto-grid-overlay {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background-image: linear-gradient(
+      rgba(247, 147, 26, 0.03) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(247, 147, 26, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+  mask-image: radial-gradient(ellipse at center, black 30%, transparent 70%);
+  -webkit-mask-image: radial-gradient(
+    ellipse at center,
+    black 30%,
+    transparent 70%
+  );
+}
+
+.crypto-grid-overlay-dense {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background-image: linear-gradient(
+      rgba(247, 147, 26, 0.03) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(247, 147, 26, 0.03) 1px, transparent 1px),
+    linear-gradient(rgba(255, 214, 0, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 214, 0, 0.02) 1px, transparent 1px);
+  background-size: 50px 50px, 50px 50px, 150px 150px, 150px 150px;
+  mask-image: radial-gradient(ellipse at center, black 30%, transparent 70%);
+  -webkit-mask-image: radial-gradient(
+    ellipse at center,
+    black 30%,
+    transparent 70%
+  );
+}

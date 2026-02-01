@@ -1,0 +1,100 @@
+/* ── Float (gentle up-down) ── */
+@keyframes crypto-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+/* ── Orbital spin ── */
+@keyframes crypto-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ── Orbital spin reverse ── */
+@keyframes crypto-spin-reverse {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* ── Bounce (staggered stat cards) ── */
+@keyframes crypto-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* ── Glow pulse (orange) ── */
+@keyframes crypto-glow-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 10px rgba(247, 147, 26, 0.4),
+      0 0 20px rgba(247, 147, 26, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(247, 147, 26, 0.6),
+      0 0 40px rgba(247, 147, 26, 0.3), 0 0 80px rgba(247, 147, 26, 0.1);
+  }
+}
+
+/* ── Glow pulse (gold) ── */
+@keyframes crypto-glow-pulse-gold {
+  0%,
+  100% {
+    box-shadow: 0 0 10px rgba(255, 214, 0, 0.4),
+      0 0 20px rgba(255, 214, 0, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 214, 0, 0.6),
+      0 0 40px rgba(255, 214, 0, 0.3), 0 0 80px rgba(255, 214, 0, 0.1);
+  }
+}
+
+/* ── Border glow (animated box-shadow for GlowBorder) ── */
+@keyframes crypto-border-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 8px rgba(247, 147, 26, 0.3),
+      0 0 16px rgba(247, 147, 26, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 16px rgba(247, 147, 26, 0.5),
+      0 0 32px rgba(247, 147, 26, 0.25), 0 0 64px rgba(247, 147, 26, 0.1);
+  }
+}
+
+/* ── Ping (badge dot indicator) ── */
+@keyframes crypto-ping {
+  75%,
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
