@@ -1,0 +1,59 @@
+@theme {
+  --font-heading: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-body: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+[data-theme="corporate-trust"] {
+  /* Surface colors */
+  --color-surface-0: #f8fafc;
+  --color-surface-1: #ffffff;
+  --color-surface-2: #f1f5f9;
+  --color-surface-3: #e2e8f0;
+
+  /* Text colors */
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #475569;
+  --color-text-muted: #64748b;
+  --color-text-inverse: #ffffff;
+
+  /* Accent colors */
+  --color-accent: #4f46e5;
+  --color-accent-hover: #4338ca;
+  --color-accent-muted: rgba(79, 70, 229, 0.1);
+
+  /* Secondary colors */
+  --color-secondary: #7c3aed;
+  --color-secondary-hover: #6d28d9;
+
+  /* Semantic colors */
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+  --color-info: #3b82f6;
+
+  /* Border colors */
+  --color-border: #e2e8f0;
+  --color-border-hover: #4f46e5;
+
+  /* Border radii */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows — indigo-tinted */
+  --shadow-sm: 0 1px 2px rgba(79, 70, 229, 0.05);
+  --shadow-md: 0 4px 12px rgba(79, 70, 229, 0.08),
+    0 1px 3px rgba(79, 70, 229, 0.06);
+  --shadow-lg: 0 8px 24px rgba(79, 70, 229, 0.1),
+    0 2px 8px rgba(79, 70, 229, 0.06);
+  --shadow-xl: 0 16px 48px rgba(79, 70, 229, 0.12),
+    0 4px 12px rgba(79, 70, 229, 0.08);
+  --shadow-glow: 0 0 20px rgba(79, 70, 229, 0.25),
+    0 0 40px rgba(79, 70, 229, 0.1);
+
+  /* Easings */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-smooth: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
