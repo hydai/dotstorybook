@@ -19,3 +19,7 @@
 @import "./themes/cyberpunk/styles/animations.css";
 @import "./themes/cyberpunk/styles/scanlines.css";
 @import "./themes/cyberpunk/styles/circuit.css";
+@import "./themes/vaporwave/styles/theme.css";
+@import "./themes/vaporwave/styles/animations.css";
+@import "./themes/vaporwave/styles/scanlines.css";
+@import "./themes/vaporwave/styles/grid.css";

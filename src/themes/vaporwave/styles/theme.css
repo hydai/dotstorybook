@@ -1,0 +1,87 @@
+@theme {
+  /* ── Vaporwave-only variables ── */
+  --font-heading: "Orbitron", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Share Tech Mono", ui-monospace, monospace;
+  --font-label: "Share Tech Mono", ui-monospace, monospace;
+  --glow-magenta-vapor: 0 0 10px rgba(255, 0, 255, 0.4),
+    0 0 20px rgba(255, 0, 255, 0.2);
+  --glow-magenta-vapor-lg: 0 0 20px rgba(255, 0, 255, 0.5),
+    0 0 40px rgba(255, 0, 255, 0.3), 0 0 80px rgba(255, 0, 255, 0.1);
+  --glow-cyan-vapor: 0 0 10px rgba(0, 255, 255, 0.4),
+    0 0 20px rgba(0, 255, 255, 0.2);
+  --glow-cyan-vapor-lg: 0 0 20px rgba(0, 255, 255, 0.5),
+    0 0 40px rgba(0, 255, 255, 0.3), 0 0 80px rgba(0, 255, 255, 0.1);
+  --glow-orange-vapor: 0 0 10px rgba(255, 153, 0, 0.4),
+    0 0 20px rgba(255, 153, 0, 0.2);
+  --glow-orange-vapor-lg: 0 0 20px rgba(255, 153, 0, 0.5),
+    0 0 40px rgba(255, 153, 0, 0.3), 0 0 80px rgba(255, 153, 0, 0.1);
+  --color-neon-magenta-vapor: #ff00ff;
+  --color-neon-cyan-vapor: #00ffff;
+  --color-neon-orange-vapor: #ff9900;
+}
+
+[data-theme="vaporwave"] {
+  /* ── Surface colors ── */
+  --color-surface-0: #090014;
+  --color-surface-1: #120026;
+  --color-surface-2: #1a0038;
+  --color-surface-3: #26004d;
+
+  /* ── Text colors ── */
+  --color-text-primary: #e0d0ff;
+  --color-text-secondary: #a090c0;
+  --color-text-muted: #6b5b8a;
+  --color-text-inverse: #090014;
+
+  /* ── Accent / Brand (Magenta) ── */
+  --color-accent: #ff00ff;
+  --color-accent-hover: #ff55ff;
+  --color-accent-muted: rgba(255, 0, 255, 0.15);
+
+  /* ── Secondary (Cyan) & Tertiary (Orange) ── */
+  --color-secondary: #00ffff;
+  --color-secondary-hover: #55ffff;
+  --color-secondary-muted: rgba(0, 255, 255, 0.15);
+  --color-tertiary: #ff9900;
+  --color-tertiary-hover: #ffbb44;
+  --color-tertiary-muted: rgba(255, 153, 0, 0.15);
+
+  /* ── Semantic ── */
+  --color-success: #00ffff;
+  --color-warning: #ff9900;
+  --color-error: #ff3366;
+
+  /* ── Border ── */
+  --color-border: #2a1a4a;
+  --color-border-hover: rgba(255, 0, 255, 0.3);
+  --color-border-accent: rgba(255, 0, 255, 0.6);
+
+  /* ── Gradient stops (sunset gradient) ── */
+  --color-gradient-start: #ff9900;
+  --color-gradient-mid: #ff00ff;
+  --color-gradient-end: #00ffff;
+
+  /* ── Radii (sharp rectangular — rounded-none) ── */
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-full: 0px;
+
+  /* ── Shadows (neon glows) ── */
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: none;
+  --shadow-glow: 0 0 10px rgba(255, 0, 255, 0.4),
+    0 0 20px rgba(255, 0, 255, 0.2);
+  --shadow-glow-lg: 0 0 20px rgba(255, 0, 255, 0.5),
+    0 0 40px rgba(255, 0, 255, 0.3), 0 0 80px rgba(255, 0, 255, 0.1);
+
+  /* ── Easings ── */
+  --ease-out-expo: linear;
+  --ease-out-back: cubic-bezier(0.25, 0, 0.25, 1);
+  --ease-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  /* ── Font ── */
+  --font-sans: "Share Tech Mono", ui-monospace, monospace;
+}

@@ -1,0 +1,84 @@
+.vapor-perspective-grid {
+  pointer-events: none;
+  position: absolute;
+  left: -50%;
+  right: -50%;
+  bottom: 0;
+  height: 60%;
+  transform: perspective(500px) rotateX(60deg);
+  transform-origin: bottom center;
+  background-image: repeating-linear-gradient(
+      0deg,
+      rgba(255, 0, 255, 0.15) 0px,
+      transparent 1px,
+      transparent 39px,
+      rgba(255, 0, 255, 0.15) 40px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(0, 255, 255, 0.1) 0px,
+      transparent 1px,
+      transparent 39px,
+      rgba(0, 255, 255, 0.1) 40px
+    );
+  background-size: 40px 40px;
+  animation: vapor-grid-scroll 2s linear infinite;
+}
+
+.vapor-perspective-grid-cyan {
+  pointer-events: none;
+  position: absolute;
+  left: -50%;
+  right: -50%;
+  bottom: 0;
+  height: 60%;
+  transform: perspective(500px) rotateX(60deg);
+  transform-origin: bottom center;
+  background-image: repeating-linear-gradient(
+      0deg,
+      rgba(0, 255, 255, 0.15) 0px,
+      transparent 1px,
+      transparent 39px,
+      rgba(0, 255, 255, 0.15) 40px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(0, 255, 255, 0.1) 0px,
+      transparent 1px,
+      transparent 39px,
+      rgba(0, 255, 255, 0.1) 40px
+    );
+  background-size: 40px 40px;
+  animation: vapor-grid-scroll 2s linear infinite;
+}
+
+.vapor-perspective-grid-magenta {
+  pointer-events: none;
+  position: absolute;
+  left: -50%;
+  right: -50%;
+  bottom: 0;
+  height: 60%;
+  transform: perspective(500px) rotateX(60deg);
+  transform-origin: bottom center;
+  background-image: repeating-linear-gradient(
+      0deg,
+      rgba(255, 0, 255, 0.15) 0px,
+      transparent 1px,
+      transparent 39px,
+      rgba(255, 0, 255, 0.15) 40px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 0, 255, 0.1) 0px,
+      transparent 1px,
+      transparent 39px,
+      rgba(255, 0, 255, 0.1) 40px
+    );
+  background-size: 40px 40px;
+  animation: vapor-grid-scroll 2s linear infinite;
+}
+
+.vapor-perspective-grid-static {
+  animation: none;
+}

@@ -1,0 +1,29 @@
+.vapor-scanline-overlay {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(255, 0, 255, 0.03) 2px,
+    rgba(255, 0, 255, 0.03) 4px
+  );
+  animation: scanline-scroll-vapor 0.5s linear infinite;
+}
+
+.vapor-scanline-overlay-neutral {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.15) 2px,
+    rgba(0, 0, 0, 0.15) 4px
+  );
+  animation: scanline-scroll-vapor 0.5s linear infinite;
+}
